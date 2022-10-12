@@ -15,7 +15,7 @@
         <h5>The Basic Language of the web: HTML</h5>
         <h6>The Basic Language of the web: HTML</h6>
         -->
-    <header>
+    <header class="main-header">
       <h1>📘 The Code Magazine</h1>
       <nav>
         <a href="blog.html" target="_blank">Blog</a>
@@ -36,7 +36,7 @@
           height="100"
         />
 
-        <p>
+        <p id="author">
           Posted by <strong>Carl Andrew Valencia</strong> on Monday, October
           10th 2022
         </p>
@@ -62,20 +62,20 @@
       <h3>What is HTML?</h3>
 
       <p>
-        HTML stands for <strong>H</strong>yper<strong>T</strong>ext
-        <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
+        <a class="html"> HTML</a> stands for <a class="underlined-html"> <strong>H</strong>yper<strong>T</strong>ext
+        <strong>M</strong>arkup <strong>L</strong>anguage. </a> It's a markup
         language that web developers use to structure and describe the content
         of a webpage (not a programming language)
       </p>
       <p>
-        HTML consists of elements that describe different types of content:
+        <a class="html"> HTML</a> consists of elements that describe different types of content:
         paragraphs, links, headings, images, video, etc. Web browsers understand
         HTML and render HTML code as websites.
       </p>
       <p>In HTML, each element is made up of 3 parts:</p>
 
       <ol>
-        <li>The opening tag</li>
+        <li class="first-li">The opening tag</li>
         <li>The closing tag</li>
         <li>The actual element</li>
       </ol>
@@ -98,7 +98,7 @@
       </p>
 
       <ul>
-        <li>To be able to use the fundamental web dev language</li>
+        <li class="first-li">To be able to use the fundamental web dev language</li>
         <li>
           To hand-craft beautiful websites instead of relying on tools like
           Wordpress or Wix
@@ -111,39 +111,39 @@
       <p>Hopefully you learned something new here. See you next time!</p>
     </article>
 
-    <aside><h4>Related Posts</h4></aside>
+    <aside><h4>Related Posts</h4>
 
     <ul>
-      <li>
+      <li class="related-list">
         <img
           src="img/related-1.jpg"
           alt="Person Programmer"
           width="75"
           height="75"
         /><a href="#"> How to Learn a web Development</a>
-        <p>By Jonas Schedtmann</p>
+        <p class="related-author">By Jonas Schedtmann</p>
       </li>
-      <li>
+      <li class="related-list">
         <img src="img/related-2.jpg" alt="Lighting" width="75" height="75" /><a
           href="#"
         >
           The Unknown power of CSS</a
         >
-        <p>By Jim Dillon</p>
+        <p class="related-author">By Jim Dillon</p>
       </li>
-      <li>
+      <li class="related-list">
         <img
           src="img/related-3.jpg"
           alt="Codes in HTML"
           width="75"
           height="75"
         /><a href="#"> Why JavaScript is Awesome</a>
-        <p>By Mathilda</p>
+        <p class="related-author">By Mathilda</p>
       </li>
     </ul>
-
+</aside>
     <footer>
-      <p>Copyright &copy; 2022 by The Code Magazine</p>
+      <p id="copyright">Copyright &copy; 2022 by The Code Magazine</p>
     </footer>
   </body>
 </html>
